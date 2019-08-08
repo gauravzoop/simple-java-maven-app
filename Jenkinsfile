@@ -20,7 +20,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/surefire-reports/*.xml'
+                    junit '/var/jenkins_home/workspace/simple-java-maven-app/target/surefire-reports/*.xml'
                 }
             }
         }
